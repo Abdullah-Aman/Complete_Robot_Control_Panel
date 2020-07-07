@@ -1,0 +1,19 @@
+<?php 
+
+$dbPassword = "sm1234";
+$dbUserName = "SMTasks";
+$dbServer = "localhost";
+$dbName = "smartmethods";
+
+
+
+$connection = new mysqli($dbServer, $dbUserName, $dbPassword, $dbName);
+
+//print_r($connection);
+
+if($connection->connect_error)
+{
+
+    exit("Database Connection Failed. Reason:".$connection->connect_error);
+
+}

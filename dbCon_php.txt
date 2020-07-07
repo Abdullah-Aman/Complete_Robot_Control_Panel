@@ -1,0 +1,25 @@
+<?php 
+require "db.php";
+
+	//if (isset($_POST['Right'])) {
+	//$query = "INSERT INTO `robot` SET `R` = 'You Choosed Right'");
+//}
+ 
+if (isset($_GET['move'])) {
+    $btnMove=$_GET['move'];
+  
+$query=  "INSERT INTO `robot` (`Moves`) VALUES ('$btnMove')";
+ $connection->query($query);
+
+    
+
+
+echo $btnMove;
+<html>
+}
+
+else{ 
+	echo "abdullah aman has an issue";
+}
+
+$connection->close();
