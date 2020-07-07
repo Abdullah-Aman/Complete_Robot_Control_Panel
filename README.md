@@ -6,7 +6,7 @@ a Complete robot control panel connected to  a database by html and php files.
 
 
 # Project description:
-- This project is to design a Complete robot control panel linked to a database that stores the movements that the robot has taken, this project consists of (html & php) files and the database used is (MySQL).
+This project is to design a Complete robot control panel linked to a database that stores the movements that the robot has taken, this project consists of (html & php) files and the database used is (MySQL).
 
 The HTML page contains 5 buttons that control the movements of the robot by pointing to one of the directions, which are (Right - Left - Forward - Backward - STOP), and a background with a robot image, the way this project works is that when a certain direction button is pressed, a new page opens that tells the robot about the direction of movement and is recorded at the same moment in the database as well.
 
